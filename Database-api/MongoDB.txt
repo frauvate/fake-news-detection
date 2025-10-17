@@ -1,0 +1,47 @@
+Neden Mongo DB
+No-sql veritabanıdır. Veriyi tablo ve sabit kolonlara bağlı kalmadan saklayabilmemizi sağlayacak.
+Kullanıcılar veya içerikler farklı alanlara sahip olabilir. JSON benzeri formatlarla birlikte bu kolayca yönetelebilir olacak.
+
+Mongo DB CRUD ( Create ,Read,Update,Delete) işlemlerini çok hızlı yapabilir.
+Veri modelimizi sık değiştirebiliriz esnektir.
+Kullanmncı sayısı arttığında veya proje büyüğünde veritabanı performansı düşmez
+JSON ile olduğu için frontend ve backend entegrasyonu kolaydır
+Bilgi güvenliği,veritabanı log kaydı
+Kullanıcılara özel onlyread,onlywrite özelliklerini atayarak ekip içi göerv ve güvenlik dağıolımını destekler niteliktedir.
+Projemizde kullanıcıların haberleri hızlıca analiz edip sonuçları kaydedebilmesi gerekiyor; veriler farklı yapıda olabiliyor ve sık değişebiliyor. MongoDB’nin esnek doküman yapısı ve JSON tabanlı modeli sayesinde verileri hızlıca ekleyip okuyabiliyorum, SQL’e göre daha az kısıtlayıcı ve modern web uygulamalarıyla uyumlu.
+Atlas Search elastich search ile aynı motoru kullancaktır. O yüzden Mongo Atlas kendi hizmeti olan Atlas Search kullanılarak. Sistem karmaşıklığı ve maliyet yönetimi zorluğu gibi sorunların önüne geçilecektir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Haber çekiliyor (NewsAPI / Scraper)
+2. Redis Queue’ya ekleniyor
+3. Worker Redis’ten alıyor, MongoDB’ye kaydediyor
+4. Atlas Search indexliyor veya ( Elastich Search’e aktar o yapsın)
+5. Kullanıcı sorgusu geliyor (Extension → FastAPI)
+6. Redis Cache kontrolü yapılıyor
+7. Gerekirse MongoDB/Atlas Search’ten sonuç alınıyor
+8. Sonuç Redis Cache’e yazılıyor
+
+
+
+
+
+
+Bu pipeline üzerinden gidilmesi düşünülüyor. Ancak yeteri kadar optimize bir sistem konusunda başarılı olamaz isek. Firebase + ElasticSearch mimarisine ve Machine Learning modelimizi daha hızlı ve akıllı hale getirilmesi planlanmıştır.
+
+API Dokümantosyanları için:
+https://newsapi.org/docs
+https://docs.gnews.io/
+
+	
