@@ -152,10 +152,6 @@ class TextProcessor:
         # Validate length after processing
         if validate_length and len(text) < MIN_TEXT_LENGTH:
             raise TextTooShortException(len(text), MIN_TEXT_LENGTH)
-        else:
-            # kısa metinleri atla veya birleştir
-            print(f"Text too short ({len(raw_text)} chars), skipping...")
-            cleaned = None  # veya uygun bir default değer
         
         # Log cleaning statistics
         cleaned_length = len(text)
