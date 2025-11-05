@@ -1,0 +1,21 @@
+# Hassas ayarlar (Şifreler ve gizli anahtarlar)
+# BU EN ÖNEMLİSİDİR!
+.env
+
+# Python cache klasörleri ve dosyaları
+__pycache__/
+*.pyc
+
+# Sanal ortam (Virtual Environment) klasörleri
+venv/
+.venv/
+env/
+*.env
+
+# Geçici SQLite veritabanları (Test için oluşturulursa)
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code ayar klasörü (İsteğe bağlı ama önerilir)
+.vscode/
