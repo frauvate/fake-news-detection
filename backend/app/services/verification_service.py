@@ -37,7 +37,6 @@ class SimilarArticle:
     source_name: Optional[str] = None
     published_at: Optional[datetime] = None
     country_code: Optional[str] = None
-    url: Optional[str] = None
 
     def normalized_similarity(self) -> float:
         """Return similarity clipped to the 0-1 range."""
@@ -134,7 +133,6 @@ class VerificationService:
                 source_name=item.source_name,
                 published_at=item.published_at,
                 country_code=item.country_code,
-                url=item.url,
             )
             for item in articles
             if item.normalized_similarity() >= self._similarity_threshold
