@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import auth, search
+from app.routers import auth, search, verification
 from app.core.database import init_models
 
 app = FastAPI(
@@ -10,6 +10,7 @@ app = FastAPI(
 
 app.include_router(auth.router)
 app.include_router(search.router)
+app.include_router(verification.router)
 
 @app.on_event("startup")
 async def on_startup():
