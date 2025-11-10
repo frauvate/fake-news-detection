@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/mCL4Njpn/eerify-logo.png" alt="logo" width="200"/>
+  <img src="https://freeimage.host/i/Km11kBf" alt="logo" width="200"/>
 </p>
 
 <h1 align="center">📰 VEERIFY </h1>
@@ -67,7 +67,7 @@ Ayrıca kullanıcıların yaptığı sorgular üzerinden **trend analizi** gerç
   <table>
     <tr>
       <td align="center" width="200">
-        <img src="https://avatars.githubusercontent.com/u/frauvate?s=200" width="100" height="100" style="border-radius:50%;" alt="Esma Asyldrm"/><br>
+        <img src="https://avatars.githubusercontent.com/u/frauvate?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 1"/><br>
         <b>Esma Yıldırım</b><br>
         scrum master & full stack developer<br>
         <a href="https://github.com/frauvate">GitHub</a>
