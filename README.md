@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ibb.co/8DW9YCky" alt="logo" width="200"/>
+  <img src="https://i.ibb.co/mCL4Njpn/eerify-logo.png" alt="logo" width="200"/>
 </p>
 
 <h1 align="center">📰 VEERIFY </h1>
@@ -68,26 +68,26 @@ Ayrıca kullanıcıların yaptığı sorgular üzerinden **trend analizi** gerç
     <tr>
       <td align="center" width="200">
         <img src="https://avatars.githubusercontent.com/u/frauvate?s=200" width="100" height="100" style="border-radius:50%;" alt="Esma Asyldrm"/><br>
-        <b>Esma Asyldrm</b><br>
-        Trend Analizi & Sistem Tasarımı<br>
+        <b>Esma Yıldırım</b><br>
+        scrum master & full stack developer<br>
         <a href="https://github.com/frauvate">GitHub</a>
       </td>
       <td align="center" width="200">
-        <img src="https://avatars.githubusercontent.com/u/member2_id?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 2"/><br>
-        <b>Üye 2</b><br>
-        Backend Geliştirici<br>
+        <img src="https://avatars.githubusercontent.com/u/omerb4l?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 2"/><br>
+        <b>Ömer Bal</b><br>
+        data engineer<br>
         <a href="https://github.com/member2">GitHub</a>
       </td>
       <td align="center" width="200">
-        <img src="https://avatars.githubusercontent.com/u/member3_id?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 3"/><br>
-        <b>Üye 3</b><br>
-        Veri Toplama & Crawler<br>
+        <img src="https://avatars.githubusercontent.com/u/suleymanssardogan?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 3"/><br>
+        <b>Süleyman Sardoğan</b><br>
+        data engineer & backend developer<br>
         <a href="https://github.com/member3">GitHub</a>
       </td>
       <td align="center" width="200">
-        <img src="https://avatars.githubusercontent.com/u/member4_id?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 4"/><br>
-        <b>Üye 4</b><br>
-        Veritabanı & Docker Setup<br>
+        <img src="https://avatars.githubusercontent.com/u/busrademirrr?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 4"/><br>
+        <b>Büşra Demir</b><br>
+        data engineer & frontend developer<br>
         <a href="https://github.com/member4">GitHub</a>
       </td>
     </tr>
