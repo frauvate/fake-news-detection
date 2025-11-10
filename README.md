@@ -76,19 +76,19 @@ Ayrıca kullanıcıların yaptığı sorgular üzerinden **trend analizi** gerç
         <img src="https://avatars.githubusercontent.com/u/omerb4l?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 2"/><br>
         <b>Ömer Bal</b><br>
         data engineer<br>
-        <a href="https://github.com/member2">GitHub</a>
+        <a href="https://github.com/omerb4l">GitHub</a>
       </td>
       <td align="center" width="200">
         <img src="https://avatars.githubusercontent.com/u/suleymanssardogan?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 3"/><br>
         <b>Süleyman Sardoğan</b><br>
         data engineer & backend developer<br>
-        <a href="https://github.com/member3">GitHub</a>
+        <a href="https://github.com/suleymanssardogan">GitHub</a>
       </td>
       <td align="center" width="200">
         <img src="https://avatars.githubusercontent.com/u/busrademirrr?s=200" width="100" height="100" style="border-radius:50%;" alt="Üye 4"/><br>
         <b>Büşra Demir</b><br>
         data engineer & frontend developer<br>
-        <a href="https://github.com/member4">GitHub</a>
+        <a href="https://github.com/busrademirrr">GitHub</a>
       </td>
     </tr>
   </table>
